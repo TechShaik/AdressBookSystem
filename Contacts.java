@@ -25,20 +25,20 @@ public class Contacts {
                 }
                 
                 
-                
+              @Override
                 public String toString(){
-					System.out.println("Adress >>>>>>>");
-					System.out.println("First_name : "+First_name);
-					System.out.println("Last_name : "+Last_name);
-					System.out.println("Adress : "+Adress);					
-					System.out.println("City : "+City);
-					System.out.println("State : "+State);
-				System.out.println("zip : "+zip);
-					System.out.println("Phone_number : "+Phone_number); 
-					System.out.println("E_mail : "+E_mail);
-					return "";
- 
+                	 return   
+                             "First_name=" + First_name + '\n' +
+                             " Last_name=" + Last_name + '\n' +
+                             " Adress=" + Adress + '\n' +
+                             " City=" + City + '\n' +
+                             " State=" + State + '\n' +
+                             " zip=" + zip +'\n'+
+                             " Phone_number=" + Phone_number +'\n'+
+                             " E_mail=" + E_mail + '\n' ;
+  
                  }
+                 
  
 
 
